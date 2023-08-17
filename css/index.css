@@ -1,0 +1,35 @@
+.content{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.content > div {
+    display: flex; 
+    flex: 1; 
+    align-content: center;
+    justify-content: left;
+    padding: 1rem;
+}
+.card{
+    background-color: rgb(240, 237, 237);
+    padding: 1em 1em;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+.form-group-jk{
+    display: flex;
+    flex-direction: row;
+}
+label{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
